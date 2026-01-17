@@ -1,3 +1,8 @@
+/*
+ * @Date: 2026-01-11 13:02:14
+ * @LastEditTime: 2026-01-12 19:57:08
+ * @FilePath: \NextChat\app\layout.tsx
+ */
 /* eslint-disable @next/next/no-page-custom-font */
 import "./styles/globals.scss";
 import "./styles/markdown.scss";
@@ -9,10 +14,10 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { getServerSideConfig } from "./config/server";
 
 export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "DeepSeek",
+  description: "办公助手",
   appleWebApp: {
-    title: "NextChat",
+    title: "DeepSeek",
     statusBarStyle: "default",
   },
 };
